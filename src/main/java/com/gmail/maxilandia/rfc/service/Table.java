@@ -3,96 +3,88 @@ package com.gmail.maxilandia.rfc.service;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.gmail.maxilandia.rfc.ClassificationDetails;
+import com.gmail.maxilandia.rfc.Team;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 class Table {
 
 	private List<TableEl> table;
 
-	public List<TableEl> getTable() {
+	List<TableEl> getTable() {
 		return table;
 	}
-	public void setTable(List<TableEl> table) {
+	void setTable(List<TableEl> table) {
 		this.table = table;
 	}
 	
+	@SuppressWarnings("unused")
 	@JsonIgnoreProperties(ignoreUnknown = true)
-	public static class TableEl {
+	public static class TableEl implements ClassificationDetails {
 
 		private String team;
+		
 		private Integer id, group, points, wins, draws, losses, gf, ga, avg, mark, round;
-
-		public String getTeam() {
-			return team;
-		}
-		public void setTeam(String team) {
+		
+		void setTeam(String team) {
 			this.team = team;
 		}
-		public Integer getId() {
-			return id;
-		}
-		public void setId(Integer id) {
+		void setId(Integer id) {
 			this.id = id;
+		}
+		void setGroup(Integer group) {
+			this.group = group;
+		}
+		void setPoints(Integer points) {
+			this.points = points;
+		}
+		void setWins(Integer wins) {
+			this.wins = wins;
+		}
+		void setDraws(Integer draws) {
+			this.draws = draws;
+		}
+		void setLosses(Integer losses) {
+			this.losses = losses;
+		}
+		void setGf(Integer gf) {
+			this.gf = gf;
+		}
+		void setGa(Integer ga) {
+			this.ga = ga;
+		}
+		void setAvg(Integer avg) {
+			this.avg = avg;
+		}
+		void setMark(Integer mark) {
+			this.mark = mark;
+		}
+		void setRound(Integer round) {
+			this.round = round;
+		}
+		public Team getTeam() {
+			return new TeamImpl(id, team);
 		}
 		public Integer getGroup() {
 			return group;
 		}
-		public void setGroup(Integer group) {
-			this.group = group;
-		}
 		public Integer getPoints() {
 			return points;
-		}
-		public void setPoints(Integer points) {
-			this.points = points;
 		}
 		public Integer getWins() {
 			return wins;
 		}
-		public void setWins(Integer wins) {
-			this.wins = wins;
-		}
 		public Integer getDraws() {
 			return draws;
-		}
-		public void setDraws(Integer draws) {
-			this.draws = draws;
 		}
 		public Integer getLosses() {
 			return losses;
 		}
-		public void setLosses(Integer losses) {
-			this.losses = losses;
-		}
 		public Integer getGf() {
 			return gf;
 		}
-		public void setGf(Integer gf) {
-			this.gf = gf;
-		}
 		public Integer getGa() {
 			return ga;
-		}
-		public void setGa(Integer ga) {
-			this.ga = ga;
-		}
-		public Integer getAvg() {
-			return avg;
-		}
-		public void setAvg(Integer avg) {
-			this.avg = avg;
-		}
-		public Integer getMark() {
-			return mark;
-		}
-		public void setMark(Integer mark) {
-			this.mark = mark;
-		}
-		public Integer getRound() {
-			return round;
-		}
-		public void setRound(Integer round) {
-			this.round = round;
 		}
 
 	}

@@ -7,7 +7,6 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gmail.maxilandia.rfc.service.Table.TableEl;
 
 public class TableParserTest {
 
@@ -18,7 +17,7 @@ public class TableParserTest {
 		Table table = mapper.readValue(input, Table.class);
 		Assert.assertFalse(table.getTable().isEmpty());
 		Table.TableEl tableEl = table.getTable().get(0);
-		Assert.assertNotNull(tableEl.getId());
+		Assert.assertNotNull(tableEl.getTeam());
 		Assert.assertNotNull(tableEl.getPoints());
 	}
 

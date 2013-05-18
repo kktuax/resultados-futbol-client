@@ -4,6 +4,13 @@ import com.gmail.maxilandia.rfc.Team;
 
 class TeamImpl implements Team{
 	
+	public TeamImpl(Integer id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.shield = null;
+	}
+	
 	public TeamImpl(Integer id, String name, String shield) {
 		super();
 		this.id = id;

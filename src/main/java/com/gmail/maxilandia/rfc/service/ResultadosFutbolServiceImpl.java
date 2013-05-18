@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.gmail.maxilandia.rfc.ClassificationDetails;
 import com.gmail.maxilandia.rfc.League;
 import com.gmail.maxilandia.rfc.Match;
 
@@ -64,6 +65,32 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 			LOGGER.warn(e.getMessage());
 		}
 		return matchesList;
+	}
+	
+	@Override
+	public List<ClassificationDetails> getClassification(League league, Integer group, Integer round) {
+		List<ClassificationDetails> clasification = new ArrayList<ClassificationDetails>();
+		try{
+			StringBuilder urlBuilder = getApiUrlBuilder("tables");
+			urlBuilder.append("&league=");
+			urlBuilder.append(league.getId());
+			if(group != null){
+				urlBuilder.append("&group=");
+				urlBuilder.append(group);
+			}
+			if(round != null){
+				urlBuilder.append("&round=");
+				urlBuilder.append(round);
+			}
+            URL url = new URL(urlBuilder.toString());
+        	InputStream input = url.openStream();
+        	Table table = mapper.readValue(input, Table.class);
+        	clasification.addAll(table.getTable());
+        	input.close();
+		}catch (Exception e) {
+			LOGGER.warn(e.getMessage());
+		}
+		return clasification;
 	}
 	
 	private StringBuilder getApiUrlBuilder(String requestName){
