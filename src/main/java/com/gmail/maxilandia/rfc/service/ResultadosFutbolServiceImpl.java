@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gmail.maxilandia.rfc.League;
+import com.gmail.maxilandia.rfc.Match;
 
 public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 
@@ -39,6 +40,32 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 		return leaguesList;
 	}
 
+	@Override
+	public List<Match> getMatches(League league, Integer group, Integer round) {
+		List<Match> matchesList = new ArrayList<Match>();
+		try{
+			StringBuilder urlBuilder = getApiUrlBuilder("matchs");
+			urlBuilder.append("&league=");
+			urlBuilder.append(league.getId());
+			if(group != null){
+				urlBuilder.append("&group=");
+				urlBuilder.append(group);
+			}
+			if(round != null){
+				urlBuilder.append("&round=");
+				urlBuilder.append(round);
+			}
+            URL url = new URL(urlBuilder.toString());
+        	InputStream input = url.openStream();
+        	Matches matches = mapper.readValue(input, Matches.class);
+        	matchesList.addAll(matches.getMatch());
+        	input.close();
+		}catch (Exception e) {
+			LOGGER.warn(e.getMessage());
+		}
+		return matchesList;
+	}
+	
 	private StringBuilder getApiUrlBuilder(String requestName){
 		StringBuilder urlBuilder = new StringBuilder();
 		urlBuilder.append(BASE_URL);

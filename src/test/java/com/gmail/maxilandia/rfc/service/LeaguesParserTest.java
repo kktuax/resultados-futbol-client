@@ -7,7 +7,6 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gmail.maxilandia.rfc.service.Leagues.League;
 
 public class LeaguesParserTest {
 

@@ -3,164 +3,121 @@ package com.gmail.maxilandia.rfc.service;
 import java.util.Date;
 import java.util.List;
 
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.gmail.maxilandia.rfc.Result;
+import com.gmail.maxilandia.rfc.Team;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 class Matches {
 
 	private List<Match> match;
 
-	public List<Match> getMatch() {
+	List<Match> getMatch() {
 		return match;
 	}
-	public void setMatch(List<Match> matches) {
+	void setMatch(List<Match> matches) {
 		this.match = matches;
 	}
 
+	@SuppressWarnings("unused")
 	@JsonIgnoreProperties(ignoreUnknown = true)
-	public static class Match {
+	public static class Match implements com.gmail.maxilandia.rfc.Match{
+		
 		private Integer id, year, group, round, team1, team2, group_code,
-				local_goals, visitor_goals, status, hour, minute;
+				status, hour, minute;
 		private String local, visitor, competition_name, local_shield,
-				visitor_shield, result, date;
+				visitor_shield, result, date, local_goals, visitor_goals;
 		private Boolean playoffs;
 		private Float coef;
 		
 	    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-MM-DD HH:mm:ss")
 		private Date schedule;
-		
-		public Integer getId() {
-			return id;
-		}
-		public void setId(Integer id) {
+		void setId(Integer id) {
 			this.id = id;
 		}
-		public Integer getYear() {
-			return year;
-		}
-		public void setYear(Integer year) {
+		void setYear(Integer year) {
 			this.year = year;
 		}
-		public Integer getGroup() {
-			return group;
-		}
-		public void setGroup(Integer group) {
+		void setGroup(Integer group) {
 			this.group = group;
 		}
-		public Integer getRound() {
-			return round;
-		}
-		public void setRound(Integer round) {
+		void setRound(Integer round) {
 			this.round = round;
 		}
-		public Integer getTeam1() {
-			return team1;
-		}
-		public void setTeam1(Integer team1) {
+		void setTeam1(Integer team1) {
 			this.team1 = team1;
 		}
-		public Integer getTeam2() {
-			return team2;
-		}
-		public void setTeam2(Integer team2) {
+		void setTeam2(Integer team2) {
 			this.team2 = team2;
 		}
-		public Integer getGroup_code() {
-			return group_code;
+		void setGroup_code(Integer group_code) {
+			this.group_code = group_code;
 		}
-		public void setGroup_code(Integer groupCode) {
-			group_code = groupCode;
+		void setLocal_goals(String local_goals) {
+			this.local_goals = local_goals;
 		}
-		public Integer getLocal_goals() {
-			return local_goals;
+		void setVisitor_goals(String visitor_goals) {
+			this.visitor_goals = visitor_goals;
 		}
-		public void setLocal_goals(Integer localGoals) {
-			local_goals = localGoals;
-		}
-		public Integer getVisitor_goals() {
-			return visitor_goals;
-		}
-		public void setVisitor_goals(Integer visitorGoals) {
-			visitor_goals = visitorGoals;
-		}
-		public Integer getStatus() {
-			return status;
-		}
-		public void setStatus(Integer status) {
+		void setStatus(Integer status) {
 			this.status = status;
 		}
-		public Integer getHour() {
-			return hour;
-		}
-		public void setHour(Integer hour) {
+		void setHour(Integer hour) {
 			this.hour = hour;
 		}
-		public Integer getMinute() {
-			return minute;
-		}
-		public void setMinute(Integer minute) {
+		void setMinute(Integer minute) {
 			this.minute = minute;
 		}
-		public String getLocal() {
-			return local;
-		}
-		public void setLocal(String local) {
+		void setLocal(String local) {
 			this.local = local;
 		}
-		public String getVisitor() {
-			return visitor;
-		}
-		public void setVisitor(String visitor) {
+		void setVisitor(String visitor) {
 			this.visitor = visitor;
 		}
-		public String getCompetition_name() {
-			return competition_name;
+		void setCompetition_name(String competition_name) {
+			this.competition_name = competition_name;
 		}
-		public void setCompetition_name(String competitionName) {
-			competition_name = competitionName;
+		void setLocal_shield(String local_shield) {
+			this.local_shield = local_shield;
 		}
-		public String getLocal_shield() {
-			return local_shield;
+		void setVisitor_shield(String visitor_shield) {
+			this.visitor_shield = visitor_shield;
 		}
-		public void setLocal_shield(String localShield) {
-			local_shield = localShield;
-		}
-		public String getVisitor_shield() {
-			return visitor_shield;
-		}
-		public void setVisitor_shield(String visitorShield) {
-			visitor_shield = visitorShield;
-		}
-		public String getResult() {
-			return result;
-		}
-		public void setResult(String result) {
+		void setResult(String result) {
 			this.result = result;
 		}
-		public String getDate() {
-			return date;
-		}
-		public void setDate(String date) {
+		void setDate(String date) {
 			this.date = date;
 		}
-		public Boolean getPlayoffs() {
-			return playoffs;
-		}
-		public void setPlayoffs(Boolean playoffs) {
+		void setPlayoffs(Boolean playoffs) {
 			this.playoffs = playoffs;
 		}
-		public Float getCoef() {
-			return coef;
-		}
-		public void setCoef(Float coef) {
+		void setCoef(Float coef) {
 			this.coef = coef;
+		}
+		void setSchedule(Date schedule) {
+			this.schedule = schedule;
+		}
+		public Team getLocalTeam() {
+			return new TeamImpl(team1, local, local_shield);
+		}
+		public Team getVisitorTeam() {
+			return new TeamImpl(team2, visitor, visitor_shield);
+		}
+		public Integer getId() {
+			return id;
 		}
 		public Date getSchedule() {
 			return schedule;
 		}
-		public void setSchedule(Date schedule) {
-			this.schedule = schedule;
+		public Result getResult() {
+			try{
+				return new ResultImpl(result);
+			}catch (Exception e) {
+				return null;
+			}
 		}
 
 	}
