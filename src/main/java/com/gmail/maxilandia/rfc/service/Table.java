@@ -1,11 +1,11 @@
-package com.gmail.maxilandia.rfc.json;
+package com.gmail.maxilandia.rfc.service;
 
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Table {
+class Table {
 
 	private List<TableEl> table;
 

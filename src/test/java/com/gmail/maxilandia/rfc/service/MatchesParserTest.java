@@ -1,4 +1,4 @@
-package com.gmail.maxilandia.rfc.json;
+package com.gmail.maxilandia.rfc.service;
 
 import java.io.InputStream;
 import java.util.TimeZone;
@@ -8,6 +8,7 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.gmail.maxilandia.rfc.service.Matches.Match;
 
 public class MatchesParserTest {
 

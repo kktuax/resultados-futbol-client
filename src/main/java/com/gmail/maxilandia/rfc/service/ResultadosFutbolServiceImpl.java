@@ -11,7 +11,6 @@ import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gmail.maxilandia.rfc.League;
-import com.gmail.maxilandia.rfc.json.Leagues;
 
 public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 

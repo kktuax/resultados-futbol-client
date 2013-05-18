@@ -1,4 +1,4 @@
-package com.gmail.maxilandia.rfc.json;
+package com.gmail.maxilandia.rfc.service;
 
 import java.util.Date;
 import java.util.List;
@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Details {
+class Details {
 
 	private Integer id, team1, team2, local_goals, visitor_goals, status;
 

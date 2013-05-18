@@ -1,4 +1,4 @@
-package com.gmail.maxilandia.rfc.json;
+package com.gmail.maxilandia.rfc.service;
 
 import java.io.InputStream;
 
@@ -7,7 +7,7 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gmail.maxilandia.rfc.json.Leagues;
+import com.gmail.maxilandia.rfc.service.Leagues.League;
 
 public class LeaguesParserTest {
 

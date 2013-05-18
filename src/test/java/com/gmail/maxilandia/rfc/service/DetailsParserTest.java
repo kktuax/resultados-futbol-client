@@ -1,4 +1,4 @@
-package com.gmail.maxilandia.rfc.json;
+package com.gmail.maxilandia.rfc.service;
 
 import java.io.InputStream;
 import java.util.TimeZone;
