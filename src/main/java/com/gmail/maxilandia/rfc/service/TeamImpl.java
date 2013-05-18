@@ -24,4 +24,9 @@ class TeamImpl implements Team{
 		return shield;
 	}
 	
+	@Override
+	public String toString() {
+		return "TeamImpl [id=" + id + ", name=" + name + "]";
+	}
+	
 }

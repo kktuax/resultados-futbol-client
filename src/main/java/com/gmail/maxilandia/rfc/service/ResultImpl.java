@@ -31,5 +31,10 @@ class ResultImpl implements Result{
 	public Integer getVisitorGoals() {
 		return visitorGoals;
 	}
+
+	@Override
+	public String toString() {
+		return localGoals + "-" + visitorGoals;
+	}
 	
 }
