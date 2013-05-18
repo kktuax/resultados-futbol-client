@@ -1,0 +1,3653 @@
+{
+    "league": [{
+            "id": "1",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Divisi\u00f3n",
+            "country": "es",
+            "current_round": "36",
+            "total_group": "1",
+            "total_rounds": "38",
+            "order": 1,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Champions League",
+                "2": "Previa de Champions",
+                "3": "Europa League",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Champions League"
+                }, {
+                    "pos": 2,
+                    "title": "Previa de Champions"
+                }, {
+                    "pos": 3,
+                    "title": "Europa League"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "129",
+            "year": "2013",
+            "group_code": "0",
+            "playoff": "1",
+            "name": "Copa del Rey",
+            "country": "es",
+            "current_round": "8",
+            "total_group": "1",
+            "total_rounds": "8",
+            "order": 2,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "132",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Supercopa",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "1",
+            "total_rounds": "1",
+            "order": 3,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "2",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n",
+            "country": "es",
+            "current_round": "39",
+            "total_group": "1",
+            "total_rounds": "42",
+            "order": 4,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "3",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n B",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "4",
+            "total_rounds": "38",
+            "order": 5,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "4": "Playoff Descenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 4,
+                    "title": "Playoff Descenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "108",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Divisi\u00f3n Futsal",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 6,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff T\u00edtulo",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff T\u00edtulo"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "4",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Tercera Divisi\u00f3n",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "18",
+            "total_rounds": "38",
+            "order": 8,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "109",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n Futsal",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 9,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Playoff Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Playoff Descenso"
+                }
+            ]
+        }, {
+            "id": "282",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Divisi\u00f3n Femenina",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 10,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "153",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Partidos Amistosos",
+            "country": "es",
+            "current_round": "46",
+            "total_group": "1",
+            "total_rounds": "50",
+            "order": 11,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "283",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n Femenina",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "8",
+            "total_rounds": "26",
+            "order": 12,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "5",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Andaluza",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "4",
+            "total_rounds": "34",
+            "order": 13,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "157",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Divisi\u00f3n Femenino Futsal",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 15,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "275",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Ja\u00e9n ",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 16,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }
+            ]
+        }, {
+            "id": "169",
+            "year": "2013",
+            "group_code": "0",
+            "playoff": "0",
+            "name": "Copa Federaci\u00f3n",
+            "country": "es",
+            "current_round": "6",
+            "total_group": "1",
+            "total_rounds": "6",
+            "order": 17,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "285",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Alev\u00edn Preferente Granada",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 18,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "281",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Torneo Nacional Alev\u00edn",
+            "country": "es",
+            "current_round": "3",
+            "total_group": "4",
+            "total_rounds": "3",
+            "order": 19,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Siguiente Ronda"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Siguiente Ronda"
+                }
+            ]
+        }, {
+            "id": "278",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Cordoba",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 20,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "243",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Regional Preferente Ceuta",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "1",
+            "total_rounds": "14",
+            "order": 21,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "268",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente M\u00e1laga ",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 22,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "280",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Huelva",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "1",
+            "total_rounds": "38",
+            "order": 23,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "110",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n B Futsal",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "5",
+            "total_rounds": "26",
+            "order": 24,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "279",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente C\u00e1diz ",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 25,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "270",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Almeria",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 26,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "277",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Sevilla",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 27,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "272",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Granada",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 28,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "267",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n Femenino Futsal",
+            "country": "es",
+            "current_round": "22",
+            "total_group": "4",
+            "total_rounds": "22",
+            "order": 29,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "75",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Catalana",
+            "country": "es",
+            "current_round": "32",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 30,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "269",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial M\u00e1laga ",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "4",
+            "total_rounds": "30",
+            "order": 31,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }
+            ]
+        }, {
+            "id": "271",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial Almeria",
+            "country": "es",
+            "current_round": "22",
+            "total_group": "1",
+            "total_rounds": "22",
+            "order": 32,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }
+            ]
+        }, {
+            "id": "276",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial Ja\u00e9n",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "2",
+            "total_rounds": "30",
+            "order": 33,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "303",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial Huelva",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "2",
+            "total_rounds": "30",
+            "order": 34,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "273",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial Granada",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 35,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "76",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Madrid",
+            "country": "es",
+            "current_round": "32",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 36,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "6",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Valenciana",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "4",
+            "total_rounds": "34",
+            "order": 37,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "274",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Provincial Granada",
+            "country": "es",
+            "current_round": "22",
+            "total_group": "2",
+            "total_rounds": "22",
+            "order": 38,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }
+            ]
+        }, {
+            "id": "266",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Tercera Divisi\u00f3n Futsal",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "24",
+            "total_rounds": "30",
+            "order": 39,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "71",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Galicia",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "2",
+            "total_rounds": "38",
+            "order": 40,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "72",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Asturias",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "1",
+            "total_rounds": "38",
+            "order": 41,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "85",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Arag\u00f3n",
+            "country": "es",
+            "current_round": "33",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 42,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "83",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Regional Navarra",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "2",
+            "total_rounds": "30",
+            "order": 43,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "116",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Rioja",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 44,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }
+            ]
+        }, {
+            "id": "156",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Divisi\u00f3n de Honor",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "7",
+            "total_rounds": "30",
+            "order": 45,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Copa Campeones",
+                "2": "Copa del Rey Juvenil",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Copa Campeones"
+                }, {
+                    "pos": 2,
+                    "title": "Copa del Rey Juvenil"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "252",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Auton\u00f3mica Melilla",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "1",
+            "total_rounds": "14",
+            "order": 46,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "256",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Extremadura",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 47,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "246",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Cadete Cantabria",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 48,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "80",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Canarias",
+            "country": "es",
+            "current_round": "33",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 49,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "81",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Murcia",
+            "country": "es",
+            "current_round": "33",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 50,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Playoff Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Playoff Descenso"
+                }
+            ]
+        }, {
+            "id": "79",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Baleares",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "3",
+            "total_rounds": "38",
+            "order": 51,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "245",
+            "year": "2012",
+            "group_code": "0",
+            "playoff": "0",
+            "name": "Primera Cadete Asturias",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 53,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "77",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera C. Le\u00f3n",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 54,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "244",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Divisi\u00f3n Honor Cadete Galicia",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 55,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "74",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Pa\u00eds Vasco",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "3",
+            "total_rounds": "34",
+            "order": 56,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "73",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Cantabria",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 57,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "286",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Infantil Preferente M\u00e1laga ",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 59,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "287",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Infantil Preferente Granada",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 60,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "295",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Copa Castilla-Le\u00f3n",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "4",
+            "total_rounds": "3",
+            "order": 61,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Siguiente Ronda"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Siguiente Ronda"
+                }
+            ]
+        }, {
+            "id": "82",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Extremadura",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "3",
+            "total_rounds": "30",
+            "order": 62,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Playoff Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Playoff Descenso"
+                }
+            ]
+        }, {
+            "id": "259",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Divisi\u00f3n Honor Cadete Arag\u00f3n",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 63,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "250",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Madrid",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 64,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": ""
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": ""
+                }
+            ]
+        }, {
+            "id": "251",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Castilla-Le\u00f3n",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 65,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": ""
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": ""
+                }
+            ]
+        }, {
+            "id": "253",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Andalucia",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "2",
+            "total_rounds": "30",
+            "order": 66,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "254",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Cadete Menorca",
+            "country": "es",
+            "current_round": "22",
+            "total_group": "1",
+            "total_rounds": "22",
+            "order": 67,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }
+            ]
+        }, {
+            "id": "255",
+            "year": "2012",
+            "group_code": "17",
+            "playoff": "0",
+            "name": "Cadete Auto. Murcia",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 68,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "257",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Liga Cadete Navarra",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 69,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "258",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Cadete Escolar",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 70,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "249",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Valenciana",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 71,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "260",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Castilla-La Mancha",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 72,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "261",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Pref. Cadete Gran Canarias",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "4",
+            "total_rounds": "34",
+            "order": 73,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "262",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Liga Insular Cadete",
+            "country": "es",
+            "current_round": "10",
+            "total_group": "2",
+            "total_rounds": "10",
+            "order": 74,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "263",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Pref. Cadete La Palma",
+            "country": "es",
+            "current_round": "18",
+            "total_group": "1",
+            "total_rounds": "18",
+            "order": 75,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "248",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Divisi\u00f3n Honor Cadete Catalu\u00f1a",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 76,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "112",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Liga Nacional Juvenil",
+            "country": "es",
+            "current_round": "33",
+            "total_group": "17",
+            "total_rounds": "34",
+            "order": 78,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "86",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera C. la Mancha",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 79,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "247",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Liga Vasca Cadete",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 80,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }
+    ]
+} {
+    "league": [{
+            "id": "1",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Divisi\u00f3n",
+            "country": "es",
+            "current_round": "36",
+            "total_group": "1",
+            "total_rounds": "38",
+            "order": 1,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Champions League",
+                "2": "Previa de Champions",
+                "3": "Europa League",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Champions League"
+                }, {
+                    "pos": 2,
+                    "title": "Previa de Champions"
+                }, {
+                    "pos": 3,
+                    "title": "Europa League"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "129",
+            "year": "2013",
+            "group_code": "0",
+            "playoff": "1",
+            "name": "Copa del Rey",
+            "country": "es",
+            "current_round": "8",
+            "total_group": "1",
+            "total_rounds": "8",
+            "order": 2,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "132",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Supercopa",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "1",
+            "total_rounds": "1",
+            "order": 3,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "2",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n",
+            "country": "es",
+            "current_round": "39",
+            "total_group": "1",
+            "total_rounds": "42",
+            "order": 4,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "3",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n B",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "4",
+            "total_rounds": "38",
+            "order": 5,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "4": "Playoff Descenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 4,
+                    "title": "Playoff Descenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "108",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Divisi\u00f3n Futsal",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 6,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff T\u00edtulo",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff T\u00edtulo"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "4",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Tercera Divisi\u00f3n",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "18",
+            "total_rounds": "38",
+            "order": 8,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "109",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n Futsal",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 9,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Playoff Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Playoff Descenso"
+                }
+            ]
+        }, {
+            "id": "282",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Divisi\u00f3n Femenina",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 10,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "153",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Partidos Amistosos",
+            "country": "es",
+            "current_round": "46",
+            "total_group": "1",
+            "total_rounds": "50",
+            "order": 11,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "283",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n Femenina",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "8",
+            "total_rounds": "26",
+            "order": 12,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "5",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Andaluza",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "4",
+            "total_rounds": "34",
+            "order": 13,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "157",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Divisi\u00f3n Femenino Futsal",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 15,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "275",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Ja\u00e9n ",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 16,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }
+            ]
+        }, {
+            "id": "169",
+            "year": "2013",
+            "group_code": "0",
+            "playoff": "0",
+            "name": "Copa Federaci\u00f3n",
+            "country": "es",
+            "current_round": "6",
+            "total_group": "1",
+            "total_rounds": "6",
+            "order": 17,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "285",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Alev\u00edn Preferente Granada",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 18,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "281",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Torneo Nacional Alev\u00edn",
+            "country": "es",
+            "current_round": "3",
+            "total_group": "4",
+            "total_rounds": "3",
+            "order": 19,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Siguiente Ronda"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Siguiente Ronda"
+                }
+            ]
+        }, {
+            "id": "278",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Cordoba",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 20,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "243",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Regional Preferente Ceuta",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "1",
+            "total_rounds": "14",
+            "order": 21,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "268",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente M\u00e1laga ",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 22,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "280",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Huelva",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "1",
+            "total_rounds": "38",
+            "order": 23,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "110",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n B Futsal",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "5",
+            "total_rounds": "26",
+            "order": 24,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "279",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente C\u00e1diz ",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 25,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "270",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Almeria",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 26,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "277",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Sevilla",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 27,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "272",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Granada",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 28,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "267",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Divisi\u00f3n Femenino Futsal",
+            "country": "es",
+            "current_round": "22",
+            "total_group": "4",
+            "total_rounds": "22",
+            "order": 29,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "75",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Catalana",
+            "country": "es",
+            "current_round": "32",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 30,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "269",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial M\u00e1laga ",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "4",
+            "total_rounds": "30",
+            "order": 31,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }
+            ]
+        }, {
+            "id": "271",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial Almeria",
+            "country": "es",
+            "current_round": "22",
+            "total_group": "1",
+            "total_rounds": "22",
+            "order": 32,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }
+            ]
+        }, {
+            "id": "276",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial Ja\u00e9n",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "2",
+            "total_rounds": "30",
+            "order": 33,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "303",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial Huelva",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "2",
+            "total_rounds": "30",
+            "order": 34,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "273",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Provincial Granada",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 35,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "76",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Madrid",
+            "country": "es",
+            "current_round": "32",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 36,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "6",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Valenciana",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "4",
+            "total_rounds": "34",
+            "order": 37,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "274",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Segunda Provincial Granada",
+            "country": "es",
+            "current_round": "22",
+            "total_group": "2",
+            "total_rounds": "22",
+            "order": 38,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Playoff Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }
+            ]
+        }, {
+            "id": "266",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Tercera Divisi\u00f3n Futsal",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "24",
+            "total_rounds": "30",
+            "order": 39,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "71",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Galicia",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "2",
+            "total_rounds": "38",
+            "order": 40,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "72",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Asturias",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "1",
+            "total_rounds": "38",
+            "order": 41,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "85",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Arag\u00f3n",
+            "country": "es",
+            "current_round": "33",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 42,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "83",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Regional Navarra",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "2",
+            "total_rounds": "30",
+            "order": 43,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "116",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Rioja",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 44,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }
+            ]
+        }, {
+            "id": "156",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Divisi\u00f3n de Honor",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "7",
+            "total_rounds": "30",
+            "order": 45,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Copa Campeones",
+                "2": "Copa del Rey Juvenil",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Copa Campeones"
+                }, {
+                    "pos": 2,
+                    "title": "Copa del Rey Juvenil"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "252",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Auton\u00f3mica Melilla",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "1",
+            "total_rounds": "14",
+            "order": 46,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "256",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Extremadura",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 47,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "246",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Cadete Cantabria",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 48,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "80",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Canarias",
+            "country": "es",
+            "current_round": "33",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 49,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "81",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Murcia",
+            "country": "es",
+            "current_round": "33",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 50,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Playoff Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Playoff Descenso"
+                }
+            ]
+        }, {
+            "id": "79",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Baleares",
+            "country": "es",
+            "current_round": "38",
+            "total_group": "3",
+            "total_rounds": "38",
+            "order": 51,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "245",
+            "year": "2012",
+            "group_code": "0",
+            "playoff": "0",
+            "name": "Primera Cadete Asturias",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 53,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "77",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera C. Le\u00f3n",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 54,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "244",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Divisi\u00f3n Honor Cadete Galicia",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 55,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "74",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Pa\u00eds Vasco",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "3",
+            "total_rounds": "34",
+            "order": 56,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "73",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Cantabria",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 57,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "286",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Infantil Preferente M\u00e1laga ",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 59,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "287",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Infantil Preferente Granada",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "1",
+            "total_rounds": "34",
+            "order": 60,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "295",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Copa Castilla-Le\u00f3n",
+            "country": "es",
+            "current_round": "1",
+            "total_group": "4",
+            "total_rounds": "3",
+            "order": 61,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "playoff",
+            "legend": {
+                "1": "Siguiente Ronda"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Siguiente Ronda"
+                }
+            ]
+        }, {
+            "id": "82",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Preferente Extremadura",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "3",
+            "total_rounds": "30",
+            "order": 62,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Playoff Ascenso",
+                "5": "Playoff Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Playoff Descenso"
+                }
+            ]
+        }, {
+            "id": "259",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Divisi\u00f3n Honor Cadete Arag\u00f3n",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 63,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "250",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Madrid",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 64,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": ""
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": ""
+                }
+            ]
+        }, {
+            "id": "251",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Castilla-Le\u00f3n",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 65,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": ""
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": ""
+                }
+            ]
+        }, {
+            "id": "253",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Andalucia",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "2",
+            "total_rounds": "30",
+            "order": 66,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "254",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Cadete Menorca",
+            "country": "es",
+            "current_round": "22",
+            "total_group": "1",
+            "total_rounds": "22",
+            "order": 67,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }
+            ]
+        }, {
+            "id": "255",
+            "year": "2012",
+            "group_code": "17",
+            "playoff": "0",
+            "name": "Cadete Auto. Murcia",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 68,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "257",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Liga Cadete Navarra",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 69,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "258",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera Cadete Escolar",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 70,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "249",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Auto. Valenciana",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 71,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "260",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Cadete Castilla-La Mancha",
+            "country": "es",
+            "current_round": "26",
+            "total_group": "1",
+            "total_rounds": "26",
+            "order": 72,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "261",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Pref. Cadete Gran Canarias",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "4",
+            "total_rounds": "34",
+            "order": 73,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "262",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Liga Insular Cadete",
+            "country": "es",
+            "current_round": "10",
+            "total_group": "2",
+            "total_rounds": "10",
+            "order": 74,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "263",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Pref. Cadete La Palma",
+            "country": "es",
+            "current_round": "18",
+            "total_group": "1",
+            "total_rounds": "18",
+            "order": 75,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": [],
+            "legend_dict": []
+        }, {
+            "id": "248",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Divisi\u00f3n Honor Cadete Catalu\u00f1a",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 76,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "112",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Liga Nacional Juvenil",
+            "country": "es",
+            "current_round": "33",
+            "total_group": "17",
+            "total_rounds": "34",
+            "order": 78,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "86",
+            "year": "2013",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Primera C. la Mancha",
+            "country": "es",
+            "current_round": "34",
+            "total_group": "2",
+            "total_rounds": "34",
+            "order": 79,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Ascenso",
+                "2": "Playoff Ascenso",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Ascenso"
+                }, {
+                    "pos": 2,
+                    "title": "Playoff Ascenso"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }, {
+            "id": "247",
+            "year": "2012",
+            "group_code": "1",
+            "playoff": "0",
+            "name": "Liga Vasca Cadete",
+            "country": "es",
+            "current_round": "30",
+            "total_group": "1",
+            "total_rounds": "30",
+            "order": 80,
+            "flag": "http:\/\/cdn3.resfu.com\/media\/img\/flags\/44x27\/es.png",
+            "phase": "",
+            "legend": {
+                "1": "Campe\u00f3n",
+                "5": "Descenso"
+            },
+            "legend_dict": [{
+                    "pos": 1,
+                    "title": "Campe\u00f3n"
+                }, {
+                    "pos": 5,
+                    "title": "Descenso"
+                }
+            ]
+        }
+    ]
+}

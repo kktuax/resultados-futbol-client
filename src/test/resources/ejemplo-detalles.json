@@ -1,0 +1,994 @@
+{
+    "id": "9326",
+    "team1": "39056",
+    "team2": "39058",
+    "local": "Racing",
+    "local_goals": "1",
+    "visitor": "Xerez",
+    "visitor_goals": "1",
+    "stadium": "Campos de Sport del Sardinero",
+    "league": "Segunda Divisi\u00f3n",
+    "schedule": "2013-03-17 12:00:00",
+    "team1_twitter": "@realracingclub",
+    "team2_twitter": "@XerezCD_OFICIAL",
+    "local_abbr": "RAC",
+    "visitor_abbr": "XER",
+    "result": "1-1",
+    "playoffs": false,
+    "last_comment": null,
+    "live_minute": "",
+    "status": 1,
+    "team1_stats": [{
+            "type": "1",
+            "data1": "21",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "2",
+            "data1": "25",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "3",
+            "data1": "22",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "4",
+            "data1": "53",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "5",
+            "data1": "8",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "6",
+            "data1": "17",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "7",
+            "data1": "112",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "8",
+            "data1": "69",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "9",
+            "data1": "0",
+            "data2": "1",
+            "data3": "3",
+            "data4": "0"
+        }, {
+            "type": "29",
+            "data1": "11",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "30",
+            "data1": "22",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "31",
+            "data1": "7",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "32",
+            "data1": "22",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }
+    ],
+    "team2_stats": [{
+            "type": "1",
+            "data1": "22",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "2",
+            "data1": "14",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "3",
+            "data1": "25",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "4",
+            "data1": "61",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "5",
+            "data1": "8",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "6",
+            "data1": "17",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "7",
+            "data1": "116",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "8",
+            "data1": "54",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "9",
+            "data1": "0",
+            "data2": "1",
+            "data3": "3",
+            "data4": "0"
+        }, {
+            "type": "29",
+            "data1": "1",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "30",
+            "data1": "22",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "31",
+            "data1": "43",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }, {
+            "type": "32",
+            "data1": "25",
+            "data2": null,
+            "data3": null,
+            "data4": "0"
+        }
+    ],
+    "tables": [{
+            "nameShow": "Elche",
+            "points": "64",
+            "gf": "42",
+            "ga": "18",
+            "wins": "19",
+            "draws": "7",
+            "loses": "4",
+            "mp": "30",
+            "diff": "124"
+        }, {
+            "nameShow": "Alcorc\u00f3n",
+            "points": "54",
+            "gf": "43",
+            "ga": "37",
+            "wins": "17",
+            "draws": "3",
+            "loses": "10",
+            "mp": "30",
+            "diff": "106"
+        }, {
+            "nameShow": "Almer\u00eda",
+            "points": "52",
+            "gf": "53",
+            "ga": "37",
+            "wins": "15",
+            "draws": "7",
+            "loses": "8",
+            "mp": "30",
+            "diff": "116"
+        }, {
+            "nameShow": "Girona",
+            "points": "51",
+            "gf": "50",
+            "ga": "39",
+            "wins": "15",
+            "draws": "6",
+            "loses": "9",
+            "mp": "30",
+            "diff": "111"
+        }, {
+            "nameShow": "Villarreal",
+            "points": "50",
+            "gf": "38",
+            "ga": "27",
+            "wins": "13",
+            "draws": "11",
+            "loses": "6",
+            "mp": "30",
+            "diff": "111"
+        }, {
+            "nameShow": "Las Palmas",
+            "points": "48",
+            "gf": "48",
+            "ga": "43",
+            "wins": "13",
+            "draws": "9",
+            "loses": "8",
+            "mp": "30",
+            "diff": "105"
+        }, {
+            "nameShow": "Barcelona B",
+            "points": "46",
+            "gf": "66",
+            "ga": "55",
+            "wins": "13",
+            "draws": "7",
+            "loses": "10",
+            "mp": "30",
+            "diff": "111"
+        }, {
+            "nameShow": "Ponferradina",
+            "points": "45",
+            "gf": "43",
+            "ga": "41",
+            "wins": "14",
+            "draws": "3",
+            "loses": "13",
+            "mp": "30",
+            "diff": "102"
+        }, {
+            "nameShow": "C\u00f3rdoba",
+            "points": "44",
+            "gf": "39",
+            "ga": "34",
+            "wins": "12",
+            "draws": "8",
+            "loses": "10",
+            "mp": "30",
+            "diff": "105"
+        }, {
+            "nameShow": "Sabadell",
+            "points": "43",
+            "gf": "43",
+            "ga": "42",
+            "wins": "12",
+            "draws": "7",
+            "loses": "11",
+            "mp": "30",
+            "diff": "101"
+        }, {
+            "nameShow": "Numancia",
+            "points": "41",
+            "gf": "36",
+            "ga": "33",
+            "wins": "10",
+            "draws": "11",
+            "loses": "9",
+            "mp": "30",
+            "diff": "103"
+        }, {
+            "nameShow": "Sporting",
+            "points": "40",
+            "gf": "43",
+            "ga": "39",
+            "wins": "10",
+            "draws": "10",
+            "loses": "10",
+            "mp": "30",
+            "diff": "104"
+        }, {
+            "nameShow": "Lugo",
+            "points": "40",
+            "gf": "28",
+            "ga": "35",
+            "wins": "11",
+            "draws": "7",
+            "loses": "12",
+            "mp": "30",
+            "diff": "93"
+        }, {
+            "nameShow": "Recreativo",
+            "points": "40",
+            "gf": "37",
+            "ga": "46",
+            "wins": "12",
+            "draws": "4",
+            "loses": "14",
+            "mp": "30",
+            "diff": "91"
+        }, {
+            "nameShow": "RM Castilla",
+            "points": "35",
+            "gf": "48",
+            "ga": "51",
+            "wins": "10",
+            "draws": "5",
+            "loses": "15",
+            "mp": "30",
+            "diff": "97"
+        }, {
+            "nameShow": "Guadalajara",
+            "points": "35",
+            "gf": "34",
+            "ga": "38",
+            "wins": "8",
+            "draws": "11",
+            "loses": "11",
+            "mp": "30",
+            "diff": "96"
+        }, {
+            "nameShow": "Murcia",
+            "points": "34",
+            "gf": "32",
+            "ga": "39",
+            "wins": "9",
+            "draws": "7",
+            "loses": "14",
+            "mp": "30",
+            "diff": "93"
+        }, {
+            "nameShow": "Mirand\u00e9s",
+            "points": "34",
+            "gf": "23",
+            "ga": "31",
+            "wins": "8",
+            "draws": "10",
+            "loses": "12",
+            "mp": "30",
+            "diff": "92"
+        }, {
+            "nameShow": "Racing",
+            "points": "31",
+            "gf": "25",
+            "ga": "40",
+            "wins": "8",
+            "draws": "7",
+            "loses": "15",
+            "mp": "30",
+            "diff": "85"
+        }, {
+            "nameShow": "Huesca",
+            "points": "29",
+            "gf": "30",
+            "ga": "40",
+            "wins": "7",
+            "draws": "8",
+            "loses": "15",
+            "mp": "30",
+            "diff": "90"
+        }, {
+            "nameShow": "H\u00e9rcules",
+            "points": "29",
+            "gf": "31",
+            "ga": "43",
+            "wins": "7",
+            "draws": "8",
+            "loses": "15",
+            "mp": "30",
+            "diff": "88"
+        }, {
+            "nameShow": "Xerez",
+            "points": "23",
+            "gf": "24",
+            "ga": "48",
+            "wins": "5",
+            "draws": "8",
+            "loses": "17",
+            "mp": "30",
+            "diff": "76"
+        }
+    ],
+    "local_shield": "http:\/\/thumb.resfu.com\/img_data\/escudos\/small\/2052.jpg",
+    "visitor_shield": "http:\/\/thumb.resfu.com\/img_data\/escudos\/small\/2767.jpg",
+    "progression": {
+        "39056": [{
+                "1": 19
+            }, {
+                "2": 22
+            }, {
+                "3": 20
+            }, {
+                "4": 21
+            }, {
+                "5": 17
+            }, {
+                "6": 13
+            }, {
+                "7": 12
+            }, {
+                "8": 15
+            }, {
+                "9": 15
+            }, {
+                "10": 14
+            }, {
+                "11": 18
+            }, {
+                "12": 16
+            }, {
+                "13": 17
+            }, {
+                "14": 19
+            }, {
+                "15": 19
+            }, {
+                "16": 19
+            }, {
+                "17": 20
+            }, {
+                "18": 21
+            }, {
+                "19": 21
+            }, {
+                "20": 19
+            }, {
+                "21": 21
+            }, {
+                "22": 22
+            }, {
+                "23": 22
+            }, {
+                "24": 22
+            }, {
+                "25": 21
+            }, {
+                "26": 21
+            }, {
+                "27": 20
+            }, {
+                "28": 20
+            }, {
+                "29": 19
+            }, {
+                "30": 19
+            }
+        ],
+        "39058": [{
+                "1": 3
+            }, {
+                "2": 11
+            }, {
+                "3": 17
+            }, {
+                "4": 19
+            }, {
+                "5": 14
+            }, {
+                "6": 16
+            }, {
+                "7": 18
+            }, {
+                "8": 18
+            }, {
+                "9": 18
+            }, {
+                "10": 17
+            }, {
+                "11": 13
+            }, {
+                "12": 10
+            }, {
+                "13": 11
+            }, {
+                "14": 11
+            }, {
+                "15": 14
+            }, {
+                "16": 14
+            }, {
+                "17": 15
+            }, {
+                "18": 17
+            }, {
+                "19": 17
+            }, {
+                "20": 16
+            }, {
+                "21": 18
+            }, {
+                "22": 18
+            }, {
+                "23": 20
+            }, {
+                "24": 21
+            }, {
+                "25": 22
+            }, {
+                "26": 22
+            }, {
+                "27": 22
+            }, {
+                "28": 22
+            }, {
+                "29": 22
+            }, {
+                "30": 22
+            }
+        ]
+    },
+    "referee": "Pi\u00f1eiro Crespo",
+    "events": {
+        "cards": [{
+                "minute": "21",
+                "action": "T. Amarilla",
+                "action_type": "5",
+                "player": "Rafa Garc\u00eda",
+                "player_id": "37970",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/tarjeta-amarilla2.gif",
+                "team": "visitor"
+            }, {
+                "minute": "47",
+                "action": "T. Amarilla",
+                "action_type": "5",
+                "player": "Quini",
+                "player_id": "34331",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/tarjeta-amarilla2.gif",
+                "team": "local"
+            }, {
+                "minute": "50",
+                "action": "T. Amarilla",
+                "action_type": "5",
+                "player": "Ra\u00fal C\u00e1mara",
+                "player_id": "23490",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/tarjeta-amarilla2.gif",
+                "team": "visitor"
+            }, {
+                "minute": "73",
+                "action": "T. Amarilla",
+                "action_type": "5",
+                "player": "David Prieto",
+                "player_id": "30491",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/tarjeta-amarilla2.gif",
+                "team": "visitor"
+            }, {
+                "minute": "74",
+                "action": "T. Amarilla",
+                "action_type": "5",
+                "player": "Ogbeche",
+                "player_id": "31554",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/tarjeta-amarilla2.gif",
+                "team": "visitor"
+            }, {
+                "minute": "76",
+                "action": "T. Amarilla",
+                "action_type": "5",
+                "player": "Mario Fern\u00e1ndez",
+                "player_id": "27663",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/tarjeta-amarilla2.gif",
+                "team": "local"
+            }, {
+                "minute": "92",
+                "action": "T. Amarilla",
+                "action_type": "5",
+                "player": "Gal\u00e1n",
+                "player_id": "34163",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/tarjeta-amarilla2.gif",
+                "team": "visitor"
+            }, {
+                "minute": "93",
+                "action": "2a Amarilla y Roja",
+                "action_type": "4",
+                "player": "Gal\u00e1n",
+                "player_id": "34163",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/dtamarilla.gif",
+                "team": "visitor"
+            }
+        ],
+        "goals": [{
+                "minute": "23",
+                "action": "Gol",
+                "action_type": "1",
+                "player": "Rueda",
+                "player_id": "29469",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/ballhome.png",
+                "team": "visitor"
+            }, {
+                "minute": "75",
+                "action": "Gol",
+                "action_type": "1",
+                "player": "G. Assulin",
+                "player_id": "29474",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/ballhome.png",
+                "team": "local"
+            }
+        ],
+        "changes": [{
+                "minute": "46",
+                "action": "Entra en el partido",
+                "action_type": "19",
+                "player": "Kone ",
+                "player_id": "110482",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/out.gif",
+                "team": "local"
+            }, {
+                "minute": "46",
+                "action": "Sale del partido",
+                "action_type": "18",
+                "player": "Jairo",
+                "player_id": "105244",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/in.gif",
+                "team": "local"
+            }, {
+                "minute": "59",
+                "action": "Sale del partido",
+                "action_type": "18",
+                "player": "Rueda",
+                "player_id": "29469",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/in.gif",
+                "team": "visitor"
+            }, {
+                "minute": "59",
+                "action": "Entra en el partido",
+                "action_type": "19",
+                "player": "Barber",
+                "player_id": "23407",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/out.gif",
+                "team": "visitor"
+            }, {
+                "minute": "62",
+                "action": "Sale del partido",
+                "action_type": "18",
+                "player": "Juanmi",
+                "player_id": "43629",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/in.gif",
+                "team": "local"
+            }, {
+                "minute": "62",
+                "action": "Entra en el partido",
+                "action_type": "19",
+                "player": "G. Assulin",
+                "player_id": "29474",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/out.gif",
+                "team": "local"
+            }, {
+                "minute": "62",
+                "action": "Sale del partido",
+                "action_type": "18",
+                "player": "F. Maldonado",
+                "player_id": "23504",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/in.gif",
+                "team": "visitor"
+            }, {
+                "minute": "62",
+                "action": "Entra en el partido",
+                "action_type": "19",
+                "player": "Mendoza",
+                "player_id": "27266",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/out.gif",
+                "team": "visitor"
+            }, {
+                "minute": "80",
+                "action": "Entra en el partido",
+                "action_type": "19",
+                "player": "Jos\u00e9 Vega",
+                "player_id": "29061",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/out.gif",
+                "team": "visitor"
+            }, {
+                "minute": "80",
+                "action": "Sale del partido",
+                "action_type": "18",
+                "player": "Lucas Porcar",
+                "player_id": "117389",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/in.gif",
+                "team": "visitor"
+            }, {
+                "minute": "82",
+                "action": "Sale del partido",
+                "action_type": "18",
+                "player": "David  Ferreiro",
+                "player_id": "31720",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/in.gif",
+                "team": "local"
+            }, {
+                "minute": "82",
+                "action": "Entra en el partido",
+                "action_type": "19",
+                "player": "Kaludjerovic",
+                "player_id": "145771",
+                "action_icon": "http:\/\/www.resultados-futbol.com\/media\/img\/out.gif",
+                "team": "local"
+            }
+        ]
+    },
+    "lineups": {
+        "local_tactic": null,
+        "local": [{
+                "num": "1",
+                "pos": "1",
+                "idplayer": "27663",
+                "nick": "Mario Fern\u00e1ndez",
+                "name": "Mario",
+                "last_name": "Fern\u00e1ndez Cuesta",
+                "role": "1",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/27663.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 1
+            }, {
+                "num": "4",
+                "pos": "2",
+                "idplayer": "29741",
+                "nick": "H\u00e9ctor Yuste",
+                "name": "H\u00e9ctor",
+                "last_name": "Yuste Cant\u00f3n",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/29741.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "27",
+                "pos": "3",
+                "idplayer": "34346",
+                "nick": "Borja Docal",
+                "name": "Borja",
+                "last_name": "Docal Saiz",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/34346.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": null,
+                "pos": "4",
+                "idplayer": "34909",
+                "nick": "Mart\u00ed Cresp\u00ed",
+                "name": "Mart\u00ed",
+                "last_name": "Cresp\u00ed Pasqual",
+                "role": "2",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/34909.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "7",
+                "pos": "5",
+                "idplayer": "27270",
+                "nick": "Francis",
+                "name": "Francisco Jesus",
+                "last_name": "Perez Malia",
+                "role": "2",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/27270.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "0",
+                "pos": "6",
+                "idplayer": "162381",
+                "nick": "Andreu Guerao",
+                "name": "Andreu",
+                "last_name": "Guerao Mayoral",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/162381.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "8",
+                "pos": "7",
+                "idplayer": "30326",
+                "nick": "Marcos Gull\u00f3n",
+                "name": "Marcos",
+                "last_name": "Gull\u00f3n Ferrera",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/30326.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "17",
+                "pos": "8",
+                "idplayer": "31720",
+                "nick": "David  Ferreiro",
+                "name": "David",
+                "last_name": "Ferreiro Quiroga",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/31720.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "11",
+                "pos": "9",
+                "idplayer": "105244",
+                "nick": "Jairo",
+                "name": "Jairo ",
+                "last_name": "Samperio Bustara",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/105244.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": null,
+                "pos": "10",
+                "idplayer": "34331",
+                "nick": "Quini",
+                "name": "Joaqu\u00edn",
+                "last_name": "\u00c1lvarez \u00c1lvarez",
+                "role": "4",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/34331.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 1
+            }, {
+                "num": null,
+                "pos": "11",
+                "idplayer": "43629",
+                "nick": "Juanmi",
+                "name": "Juan Miguel",
+                "last_name": "Jim\u00e9nez L\u00f3pez",
+                "role": "4",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/43629.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }
+        ],
+        "visitor_tactic": null,
+        "visitor": [{
+                "num": "1",
+                "pos": "1",
+                "idplayer": "67515",
+                "nick": "Chema",
+                "name": "Jos\u00e9 Mar\u00eda",
+                "last_name": "Gim\u00e9nez P\u00e9rez",
+                "role": "1",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/67515.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "21",
+                "pos": "2",
+                "idplayer": "30491",
+                "nick": "David Prieto",
+                "name": "David",
+                "last_name": "Prieto G\u00e1lvez",
+                "role": "2",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/30491.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 1
+            }, {
+                "num": null,
+                "pos": "3",
+                "idplayer": "34163",
+                "nick": "Gal\u00e1n",
+                "name": "Ernesto",
+                "last_name": "Gal\u00e1n \u00cd\u00f1igo",
+                "role": "2",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/34163.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 2
+            }, {
+                "num": null,
+                "pos": "4",
+                "idplayer": "40789",
+                "nick": "Redondo",
+                "name": "Manuel",
+                "last_name": "Redondo Garc\u00eda",
+                "role": "2",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/40789.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "20",
+                "pos": "5",
+                "idplayer": "23490",
+                "nick": "Ra\u00fal C\u00e1mara",
+                "name": "Ra\u00fal",
+                "last_name": "Miguel C\u00e1mara",
+                "role": "2",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/23490.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 1
+            }, {
+                "num": "8",
+                "pos": "6",
+                "idplayer": "117389",
+                "nick": "Lucas Porcar",
+                "name": "Lucas",
+                "last_name": "Porcar Texid\u00f3",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/117389.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "17",
+                "pos": "7",
+                "idplayer": "29469",
+                "nick": "Rueda",
+                "name": "Jos\u00e9 Manuel ",
+                "last_name": "Rueda Sampedro",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/29469.jpg",
+                "goals": 1,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": null,
+                "pos": "8",
+                "idplayer": "31555",
+                "nick": "Marquitos",
+                "name": "Marcos",
+                "last_name": "Garc\u00eda Barreno",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/31555.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }, {
+                "num": "12",
+                "pos": "9",
+                "idplayer": "37970",
+                "nick": "Rafa Garc\u00eda",
+                "name": "Rafael ",
+                "last_name": "Garc\u00eda Garc\u00eda",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/37970.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 1
+            }, {
+                "num": null,
+                "pos": "10",
+                "idplayer": "31554",
+                "nick": "Ogbeche",
+                "name": "Bartholomew",
+                "last_name": "Ogbeche",
+                "role": "4",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/31554.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 1
+            }, {
+                "num": "14",
+                "pos": "11",
+                "idplayer": "23504",
+                "nick": "F. Maldonado",
+                "name": "Francisco Jos\u00e9",
+                "last_name": "Maldonado Collantes",
+                "role": "3",
+                "image": "http:\/\/www.resultados-futbol.com\/img_data\/players\/small\/23504.jpg",
+                "goals": 0,
+                "reds": 0,
+                "yellows": 0
+            }
+        ]
+    },
+    "forecast": {
+        "1": 80,
+        "X": 12,
+        "2": 8
+    },
+    "history": []
+}
