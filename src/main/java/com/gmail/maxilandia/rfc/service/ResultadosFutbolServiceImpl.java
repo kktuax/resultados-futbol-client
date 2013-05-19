@@ -13,6 +13,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gmail.maxilandia.rfc.ClassificationDetails;
 import com.gmail.maxilandia.rfc.League;
 import com.gmail.maxilandia.rfc.Match;
+import com.gmail.maxilandia.rfc.MatchDetails;
 
 public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 
@@ -91,6 +92,23 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 			LOGGER.warn(e.getMessage());
 		}
 		return clasification;
+	}
+	
+	@Override
+	public MatchDetails getMatcheMatchDetails(Match match) {
+		try{
+			StringBuilder urlBuilder = getApiUrlBuilder("match");
+			urlBuilder.append("&id=");
+			urlBuilder.append(match.getId());
+            URL url = new URL(urlBuilder.toString());
+        	InputStream input = url.openStream();
+        	Details details = mapper.readValue(input, Details.class);
+        	input.close();
+        	return new MatchDetailsImpl(details);
+		}catch (Exception e) {
+			LOGGER.warn(e.getMessage());
+			return null;
+		}
 	}
 	
 	private StringBuilder getApiUrlBuilder(String requestName){

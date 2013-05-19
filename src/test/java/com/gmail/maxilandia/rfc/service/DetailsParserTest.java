@@ -8,6 +8,7 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.gmail.maxilandia.rfc.MatchDetails;
 
 public class DetailsParserTest {
 
@@ -16,12 +17,11 @@ public class DetailsParserTest {
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.setTimeZone(TimeZone.getTimeZone("Europe/Madrid"));
 		InputStream input = getClass().getResourceAsStream("/ejemplo-detalles.json");
-		Details details = mapper.readValue(input, Details.class);
+		MatchDetails details = new MatchDetailsImpl(mapper.readValue(input, Details.class));
 		Assert.assertNotNull(details.getId());
 		Assert.assertNotNull(details.getSchedule());
-		Assert.assertFalse(details.getEvents().getCards().isEmpty());
-		Assert.assertFalse(details.getEvents().getGoals().isEmpty());
-		Assert.assertFalse(details.getLineups().getLocal().isEmpty());
+		Assert.assertFalse(details.getEvents().isEmpty());
+		Assert.assertFalse(details.getLocalLineup().isEmpty());
 	}
 
 }
