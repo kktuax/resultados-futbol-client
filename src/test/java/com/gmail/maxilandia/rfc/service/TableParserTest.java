@@ -14,9 +14,9 @@ public class TableParserTest {
 	public void parseTableTest() throws Exception {
 		ObjectMapper mapper = new ObjectMapper();
 		InputStream input = getClass().getResourceAsStream("/ejemplo-clasificacion.json");
-		Table table = mapper.readValue(input, Table.class);
+		TableJson table = mapper.readValue(input, TableJson.class);
 		Assert.assertFalse(table.getTable().isEmpty());
-		Table.TableEl tableEl = table.getTable().get(0);
+		TableJson.TableEl tableEl = table.getTable().get(0);
 		Assert.assertNotNull(tableEl.getTeam());
 		Assert.assertNotNull(tableEl.getPoints());
 	}

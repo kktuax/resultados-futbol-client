@@ -10,7 +10,7 @@ import com.gmail.maxilandia.rfc.Result;
 import com.gmail.maxilandia.rfc.Team;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-class Matches {
+class MatchesJson {
 
 	private List<Match> match;
 

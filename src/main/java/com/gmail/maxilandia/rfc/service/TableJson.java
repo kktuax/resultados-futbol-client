@@ -7,7 +7,7 @@ import com.gmail.maxilandia.rfc.ClassificationDetails;
 import com.gmail.maxilandia.rfc.Team;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-class Table {
+class TableJson {
 
 	private List<TableEl> table;
 

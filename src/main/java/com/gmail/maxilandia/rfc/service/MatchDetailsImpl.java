@@ -1,38 +1,49 @@
 package com.gmail.maxilandia.rfc.service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.gmail.maxilandia.rfc.LineUp;
 import com.gmail.maxilandia.rfc.MatchDetails;
 import com.gmail.maxilandia.rfc.MatchEvent;
 import com.gmail.maxilandia.rfc.Player;
 import com.gmail.maxilandia.rfc.Result;
 import com.gmail.maxilandia.rfc.Team;
-import com.gmail.maxilandia.rfc.service.Details.LineUps;
+import com.gmail.maxilandia.rfc.service.DetailsJson.LineUps;
 
 class MatchDetailsImpl implements MatchDetails{
 
-	private final Details details;
+	private final DetailsJson details;
 	
-	public MatchDetailsImpl(Details details){
+	public MatchDetailsImpl(DetailsJson details){
 		this.details = details;
 	}
 	
+	@Override
 	public Integer getId() {
 		return details.id;
 	}
+	
+	@Override
 	public Date getSchedule() {
 		return details.schedule;
 	}
+	
+	@Override
 	public Team getLocalTeam() {
 		return new TeamImpl(details.team1, details.local, details.local_shield);
 	}
+	
+	@Override
 	public Team getVisitorTeam() {
 		return new TeamImpl(details.team2, details.visitor, details.visitor_shield);
 	}
+	
+	@Override
 	public Result getResult() {
 		try{
 			return new ResultImpl(details.result);
@@ -40,41 +51,75 @@ class MatchDetailsImpl implements MatchDetails{
 			return null;
 		}
 	}
+	
+	@Override
 	public String getStadium() {
 		return details.stadium;
 	}
+	
+	@Override
 	public String getReferee() {
 		return details.referee;
 	}
-	public List<MatchEvent> getEvents() {
+	
+	@Override
+	public List<MatchEvent> getLocalEvents() {
+		return getAllEvents(true);
+	}
+	
+	@Override
+	public List<MatchEvent> getVisitorEvents() {
+		return getAllEvents(false);
+	}
+	
+	private List<MatchEvent> getAllEvents(boolean local) {
 		List<MatchEvent> matchEvents = new ArrayList<MatchEvent>();
 		if(details.events != null){
-			if(details.events.cards != null) matchEvents.addAll(details.events.cards);
-			if(details.events.goals != null) matchEvents.addAll(details.events.goals);
-			if(details.events.changes != null) matchEvents.addAll(details.events.changes);
+			matchEvents.addAll(getEvents(details.events.cards, local));
+			matchEvents.addAll(getEvents(details.events.goals, local));
+			matchEvents.addAll(getEvents(details.events.changes, local));
 		}
 		return matchEvents;
 	}
-	public Map<Player, LineUp> getLocalLineup() {
-		Map<Player, LineUp> lineUp = new LinkedHashMap<Player, MatchDetails.LineUp>();
-		if(details.lineups != null){
-			if(details.lineups.getLocal() != null){
-				for(LineUps.Player p : details.lineups.getLocal()){
-					lineUp.put(p, p);
+	
+	private static List<MatchEvent> getEvents(List<DetailsJson.Events.Event> events, boolean local){
+		List<MatchEvent> fevents = new ArrayList<MatchEvent>();
+		if(events != null){
+			for(DetailsJson.Events.Event event: events){
+				boolean isLocal  = "local".equalsIgnoreCase(event.team);
+				if(isLocal == local){
+					fevents.add(new MatchEventImpl(event));
 				}
 			}
 		}
-		return lineUp;
+		return fevents;
 	}
-	public Map<Player, LineUp> getVisitorLineup() {
-		Map<Player, LineUp> lineUp = new LinkedHashMap<Player, MatchDetails.LineUp>();
+	
+	@Override
+	public Map<Player, LineUp> getLocalLineup() {
 		if(details.lineups != null){
-			if(details.lineups.getVisitor() != null){
-				for(LineUps.Player p : details.lineups.getVisitor()){
-					lineUp.put(p, p);
-				}
-			}
+			return getLineup(details.lineups.local);
+		}else{
+			return Collections.emptyMap();
 		}
+	}
+	
+	@Override
+	public Map<Player, LineUp> getVisitorLineup() {
+		if(details.lineups != null){
+			return getLineup(details.lineups.visitor);
+		}else{
+			return Collections.emptyMap();
+		}
+	}
+	
+	private static Map<Player, LineUp> getLineup(List<DetailsJson.LineUps.Player> lineUpPlayers) {
+		Map<Player, LineUp> lineUp = new LinkedHashMap<Player, LineUp>();
+		if(lineUpPlayers != null){
+			for(LineUps.Player p : lineUpPlayers){
+				lineUp.put(new PlayerImpl(p), new LineUpImpl(p));
+			}
+		}	
 		return lineUp;
 	}
 	

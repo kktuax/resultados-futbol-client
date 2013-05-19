@@ -33,7 +33,7 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 			}
             URL url = new URL(urlBuilder.toString());
         	InputStream input = url.openStream();
-        	Leagues leagues = mapper.readValue(input, Leagues.class);
+        	LeaguesJson leagues = mapper.readValue(input, LeaguesJson.class);
         	leaguesList.addAll(leagues.getLeague());
         	input.close();
 		}catch (Exception e) {
@@ -59,7 +59,7 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 			}
             URL url = new URL(urlBuilder.toString());
         	InputStream input = url.openStream();
-        	Matches matches = mapper.readValue(input, Matches.class);
+        	MatchesJson matches = mapper.readValue(input, MatchesJson.class);
         	matchesList.addAll(matches.getMatch());
         	input.close();
 		}catch (Exception e) {
@@ -85,7 +85,7 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 			}
             URL url = new URL(urlBuilder.toString());
         	InputStream input = url.openStream();
-        	Table table = mapper.readValue(input, Table.class);
+        	TableJson table = mapper.readValue(input, TableJson.class);
         	clasification.addAll(table.getTable());
         	input.close();
 		}catch (Exception e) {
@@ -102,7 +102,7 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 			urlBuilder.append(match.getId());
             URL url = new URL(urlBuilder.toString());
         	InputStream input = url.openStream();
-        	Details details = mapper.readValue(input, Details.class);
+        	DetailsJson details = mapper.readValue(input, DetailsJson.class);
         	input.close();
         	return new MatchDetailsImpl(details);
 		}catch (Exception e) {

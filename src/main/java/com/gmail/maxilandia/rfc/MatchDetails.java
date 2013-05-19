@@ -7,13 +7,11 @@ public interface MatchDetails extends Match {
 
 	public String getStadium();
 	public String getReferee();
-	public List<MatchEvent> getEvents();
+	public List<MatchEvent> getLocalEvents();
+	public List<MatchEvent> getVisitorEvents();
 	public Map<Player, LineUp> getLocalLineup();
 	public Map<Player, LineUp> getVisitorLineup();
 	
-	public interface LineUp{
-		public Integer getRole();
-	}
-	
 }
+
 

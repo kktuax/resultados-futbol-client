@@ -14,9 +14,9 @@ public class LeaguesParserTest {
 	public void parseLeaguesTest() throws Exception {
 		ObjectMapper mapper = new ObjectMapper();
 		InputStream input = getClass().getResourceAsStream("/ejemplo-ligas.json");
-		Leagues leagues = mapper.readValue(input, Leagues.class);
+		LeaguesJson leagues = mapper.readValue(input, LeaguesJson.class);
 		Assert.assertFalse(leagues.getLeague().isEmpty());
-		Leagues.League league = leagues.getLeague().get(0);
+		LeaguesJson.League league = leagues.getLeague().get(0);
 		Assert.assertNotNull(league.getId());
 		Assert.assertNotNull(league.getName());
 	}

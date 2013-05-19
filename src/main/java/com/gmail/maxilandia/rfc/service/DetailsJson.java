@@ -9,20 +9,22 @@ import java.util.Map;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.gmail.maxilandia.rfc.LineUp;
 import com.gmail.maxilandia.rfc.MatchDetails;
 import com.gmail.maxilandia.rfc.MatchEvent;
+import com.gmail.maxilandia.rfc.MatchEventType;
 import com.gmail.maxilandia.rfc.Result;
 import com.gmail.maxilandia.rfc.Team;
 
 @SuppressWarnings("unused")
 @JsonIgnoreProperties(ignoreUnknown = true)
-class Details {
+class DetailsJson {
 
-	Integer id, team1, team2, local_goals, visitor_goals, status;
+	Integer id, team1, team2, status;
 
 	String local, visitor, stadium, league, team1_twitter,
 			team2_twitter, local_abbr, visitor_abbr, result, local_shield,
-			visitor_shield, referee;
+			visitor_shield, referee, local_goals, visitor_goals;
 
 	Date schedule;
 
@@ -41,10 +43,10 @@ class Details {
 	void setTeam2(Integer team2) {
 		this.team2 = team2;
 	}
-	void setLocal_goals(Integer local_goals) {
+	void setLocal_goals(String local_goals) {
 		this.local_goals = local_goals;
 	}
-	void setVisitor_goals(Integer visitor_goals) {
+	void setVisitor_goals(String visitor_goals) {
 		this.visitor_goals = visitor_goals;
 	}
 	void setStatus(Integer status) {
@@ -116,11 +118,11 @@ class Details {
 		}
 
 		@JsonIgnoreProperties(ignoreUnknown = true)
-		public static class Event implements MatchEvent{
+		public static class Event{
 			
-			private Integer minute, action_type, player_id;
+			Integer minute, action_type, player_id;
 			
-			private String action, player, action_icon, team;
+			String action, player, action_icon, team;
 
 			void setMinute(Integer minute) {
 				this.minute = minute;
@@ -143,25 +145,7 @@ class Details {
 			void setTeam(String team) {
 				this.team = team;
 			}
-			public com.gmail.maxilandia.rfc.Player getPlayer() {
-				return new PlayerImpl(player_id, player);
-			}
-			public MatchEvent.Team getTeam() {
-				try{
-					return MatchEvent.Team.valueOf(team);					
-				}catch (IllegalArgumentException e) {
-					return null;
-				}
-			}
-			public Integer getMinute() {
-				return minute;
-			}
-			public String getEvent() {
-				return action;
-			}
-			public String getEventIcon() {
-				return action_icon;
-			}
+			
 			
 		}
 		
@@ -170,9 +154,9 @@ class Details {
 	@JsonIgnoreProperties(ignoreUnknown = true)
 	public static class LineUps{
 		
-		private String local_tactic, visitor_tactic;
+		String local_tactic, visitor_tactic;
 		
-		private List<Player> local, visitor;
+		List<Player> local, visitor;
 		
 		void setLocal_tactic(String local_tactic) {
 			this.local_tactic = local_tactic;
@@ -186,18 +170,13 @@ class Details {
 		void setVisitor(List<Player> visitor) {
 			this.visitor = visitor;
 		}
-		List<Player> getLocal() {
-			return local;
-		}
-		List<Player> getVisitor() {
-			return visitor;
-		}
 
-		public static class Player implements com.gmail.maxilandia.rfc.Player, com.gmail.maxilandia.rfc.MatchDetails.LineUp{
+		@JsonIgnoreProperties(ignoreUnknown = true)
+		public static class Player{
 			
-			private Integer num, pos, idplayer, role, goals, reds, yellows;
+			Integer num, pos, idplayer, role, goals, reds, yellows;
 			
-			private String nick, name, last_name, image;
+			String nick, name, last_name, image;
 
 			void setNum(Integer num) {
 				this.num = num;
@@ -232,15 +211,6 @@ class Details {
 			void setImage(String image) {
 				this.image = image;
 			}
-			public Integer getId() {
-				return idplayer;
-			}
-			public String getNick() {
-				return nick;
-			}
-			public Integer getRole() {
-				return role;
-			}			
 			
 		}
 		

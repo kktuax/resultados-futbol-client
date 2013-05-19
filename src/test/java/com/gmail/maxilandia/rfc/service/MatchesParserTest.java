@@ -16,9 +16,9 @@ public class MatchesParserTest {
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.setTimeZone(TimeZone.getTimeZone("Europe/Madrid"));
 		InputStream input = getClass().getResourceAsStream("/ejemplo-resultados.json");
-		Matches matches = mapper.readValue(input, Matches.class);
+		MatchesJson matches = mapper.readValue(input, MatchesJson.class);
 		Assert.assertFalse(matches.getMatch().isEmpty());
-		Matches.Match match = matches.getMatch().get(0);
+		MatchesJson.Match match = matches.getMatch().get(0);
 		Assert.assertNotNull(match.getId());
 		Assert.assertNotNull(match.getSchedule());
 	}

@@ -4,18 +4,27 @@ import com.gmail.maxilandia.rfc.Player;
 
 class PlayerImpl implements Player{
 	
-	public PlayerImpl(Integer id, String nick) {
+	public PlayerImpl(DetailsJson.LineUps.Player player) {
 		super();
-		this.id = id;
-		this.nick = nick;
+		this.id = player.idplayer;
+		this.nick = player.nick;
+	}
+	
+	public PlayerImpl(DetailsJson.Events.Event event) {
+		super();
+		this.id = event.player_id;
+		this.nick = event.player;
 	}
 	
 	private final Integer id;
 	private final String nick;
 	
+	@Override
 	public Integer getId() {
 		return id;
 	}
+	
+	@Override
 	public String getNick() {
 		return nick;
 	}
