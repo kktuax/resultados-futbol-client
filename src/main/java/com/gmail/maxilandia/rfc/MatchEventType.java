@@ -2,7 +2,50 @@ package com.gmail.maxilandia.rfc;
 
 public enum MatchEventType {
 
-	playerOut(18), playerIn(19), goal(1), penaltyGoal(2), yellowCard(5), secondYellowCard(4), redCard(3);
+	/** Jugador sale
+	 * 
+	 */
+	playerOut(18), 
+	
+	/** Jugador entra
+	 * 
+	 */
+	playerIn(19), 
+	
+	/** Gol
+	 * 
+	 */
+	goal(1), 
+	
+	/** Gol marcado de penalty
+	 * 
+	 */
+	penaltyGoal(2), 
+
+	/** Gol en propia puerta
+	 * 
+	 */
+	ownGoal(6), 
+	
+	/** Gol de falta
+	 * 
+	 */
+	foulGoal(13), 
+	
+	/** Tarjeta amarilla
+	 * 
+	 */
+	yellowCard(5), 
+	
+	/** Segunda amarilla (y roja)
+	 * 
+	 */
+	secondYellowCard(4), 
+	
+	/** Tarjeta roja
+	 * 
+	 */
+	redCard(3);
 	
 	private final Integer code;
 	
