@@ -148,6 +148,6 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 
 	private static final String BASE_URL = "http://www.resultados-futbol.com/scripts/api/api.php?";
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(ResultadosFutbolServiceTest.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(ResultadosFutbolServiceImpl.class);
 	
 }
