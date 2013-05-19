@@ -2,17 +2,18 @@ package com.gmail.maxilandia.rfc.service;
 
 import com.gmail.maxilandia.rfc.MatchEvent;
 import com.gmail.maxilandia.rfc.MatchEventType;
+import com.gmail.maxilandia.rfc.Player;
 
 class MatchEventImpl implements MatchEvent {
 
-	private final DetailsJson.Events.Event event;
+	private final CompleteDetailsJson.Events.Event event;
 	
-	public MatchEventImpl(DetailsJson.Events.Event event){
+	public MatchEventImpl(CompleteDetailsJson.Events.Event event){
 		this.event = event;
 	}
 	
 	@Override
-	public com.gmail.maxilandia.rfc.Player getPlayer() {
+	public Player getPlayer() {
 		return new PlayerImpl(event);
 	}
 	

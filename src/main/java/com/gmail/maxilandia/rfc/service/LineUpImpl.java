@@ -4,7 +4,7 @@ import com.gmail.maxilandia.rfc.LineUp;
 
 class LineUpImpl implements LineUp{
 	
-	public LineUpImpl(DetailsJson.LineUps.Player player) {
+	public LineUpImpl(CompleteDetailsJson.LineUps.Player player) {
 		super();
 		this.role = player.role;
 	}

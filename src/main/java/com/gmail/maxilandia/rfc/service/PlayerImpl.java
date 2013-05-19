@@ -4,13 +4,13 @@ import com.gmail.maxilandia.rfc.Player;
 
 class PlayerImpl implements Player{
 	
-	public PlayerImpl(DetailsJson.LineUps.Player player) {
+	public PlayerImpl(CompleteDetailsJson.LineUps.Player player) {
 		super();
 		this.id = player.idplayer;
 		this.nick = player.nick;
 	}
 	
-	public PlayerImpl(DetailsJson.Events.Event event) {
+	public PlayerImpl(CompleteDetailsJson.Events.Event event) {
 		super();
 		this.id = event.player_id;
 		this.nick = event.player;

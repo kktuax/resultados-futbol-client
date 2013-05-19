@@ -16,12 +16,23 @@ public class DetailsParserTest {
 	public void parseDetailsTest() throws Exception {
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.setTimeZone(TimeZone.getTimeZone("Europe/Madrid"));
-		InputStream input = getClass().getResourceAsStream("/ejemplo-detalles.json");
-		MatchDetails details = new MatchDetailsImpl(mapper.readValue(input, DetailsJson.class));
-		Assert.assertNotNull(details.getId());
-		Assert.assertNotNull(details.getSchedule());
-		Assert.assertFalse(details.getLocalEvents().isEmpty());
-		Assert.assertFalse(details.getLocalLineup().isEmpty());
+		{
+			String ejemplo = "/ejemplo-detalles.json";
+			InputStream input = getClass().getResourceAsStream(ejemplo);
+			MatchDetails details = new MatchDetailsImpl(mapper.readValue(input, CompleteDetailsJson.class));
+			Assert.assertNotNull(details.getId());
+			Assert.assertNotNull(details.getSchedule());
+			Assert.assertFalse(details.getLocalEvents().isEmpty());
+			Assert.assertFalse(details.getLocalLineup().isEmpty());
+		}{
+			String ejemplo = "/ejemplo-detalles-2.json";
+			InputStream input = getClass().getResourceAsStream(ejemplo);
+			MatchDetails details = new MatchDetailsImpl(mapper.readValue(input, DetailsJson.class));
+			Assert.assertNotNull(details.getId());
+			Assert.assertNotNull(details.getSchedule());
+			Assert.assertTrue(details.getLocalEvents().isEmpty());
+			Assert.assertTrue(details.getLocalLineup().isEmpty());
+		}
 	}
 
 }

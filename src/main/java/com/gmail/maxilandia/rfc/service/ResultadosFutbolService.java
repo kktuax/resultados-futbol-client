@@ -15,6 +15,6 @@ public interface ResultadosFutbolService {
 	
 	public List<ClassificationDetails> getClassification(League league, Integer group, Integer round);
 	
-	public MatchDetails getMatcheMatchDetails(Match match);
+	public MatchDetails getMatchDetails(Match match);
 	
 }

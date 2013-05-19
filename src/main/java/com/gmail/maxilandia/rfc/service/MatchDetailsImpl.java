@@ -13,7 +13,7 @@ import com.gmail.maxilandia.rfc.MatchEvent;
 import com.gmail.maxilandia.rfc.Player;
 import com.gmail.maxilandia.rfc.Result;
 import com.gmail.maxilandia.rfc.Team;
-import com.gmail.maxilandia.rfc.service.DetailsJson.LineUps;
+import com.gmail.maxilandia.rfc.service.CompleteDetailsJson.LineUps;
 
 class MatchDetailsImpl implements MatchDetails{
 
@@ -74,18 +74,25 @@ class MatchDetailsImpl implements MatchDetails{
 	
 	private List<MatchEvent> getAllEvents(boolean local) {
 		List<MatchEvent> matchEvents = new ArrayList<MatchEvent>();
-		if(details.events != null){
-			matchEvents.addAll(getEvents(details.events.cards, local));
-			matchEvents.addAll(getEvents(details.events.goals, local));
-			matchEvents.addAll(getEvents(details.events.changes, local));
+		if(getEvents() != null){
+			matchEvents.addAll(getFilteredEvents(getEvents().cards, local));
+			matchEvents.addAll(getFilteredEvents(getEvents().goals, local));
+			matchEvents.addAll(getFilteredEvents(getEvents().changes, local));
 		}
 		return matchEvents;
 	}
 	
-	private static List<MatchEvent> getEvents(List<DetailsJson.Events.Event> events, boolean local){
+	private CompleteDetailsJson.Events getEvents(){
+		if(details instanceof CompleteDetailsJson){
+			return ((CompleteDetailsJson) details).events;
+		}
+		return null;
+	}
+	
+	private static List<MatchEvent> getFilteredEvents(List<CompleteDetailsJson.Events.Event> events, boolean local){
 		List<MatchEvent> fevents = new ArrayList<MatchEvent>();
 		if(events != null){
-			for(DetailsJson.Events.Event event: events){
+			for(CompleteDetailsJson.Events.Event event: events){
 				boolean isLocal  = "local".equalsIgnoreCase(event.team);
 				if(isLocal == local){
 					fevents.add(new MatchEventImpl(event));
@@ -97,8 +104,8 @@ class MatchDetailsImpl implements MatchDetails{
 	
 	@Override
 	public Map<Player, LineUp> getLocalLineup() {
-		if(details.lineups != null){
-			return getLineup(details.lineups.local);
+		if(getLineUps() != null){
+			return getLineup(getLineUps().local);
 		}else{
 			return Collections.emptyMap();
 		}
@@ -106,14 +113,21 @@ class MatchDetailsImpl implements MatchDetails{
 	
 	@Override
 	public Map<Player, LineUp> getVisitorLineup() {
-		if(details.lineups != null){
-			return getLineup(details.lineups.visitor);
+		if(getLineUps() != null){
+			return getLineup(getLineUps().visitor);
 		}else{
 			return Collections.emptyMap();
 		}
 	}
 	
-	private static Map<Player, LineUp> getLineup(List<DetailsJson.LineUps.Player> lineUpPlayers) {
+	private CompleteDetailsJson.LineUps getLineUps(){
+		if(details instanceof CompleteDetailsJson){
+			return ((CompleteDetailsJson) details).lineups;
+		}
+		return null;
+	}
+	
+	private static Map<Player, LineUp> getLineup(List<CompleteDetailsJson.LineUps.Player> lineUpPlayers) {
 		Map<Player, LineUp> lineUp = new LinkedHashMap<Player, LineUp>();
 		if(lineUpPlayers != null){
 			for(LineUps.Player p : lineUpPlayers){

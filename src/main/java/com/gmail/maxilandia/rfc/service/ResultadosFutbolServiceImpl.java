@@ -9,6 +9,7 @@ import java.util.TimeZone;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gmail.maxilandia.rfc.ClassificationDetails;
 import com.gmail.maxilandia.rfc.League;
@@ -32,6 +33,7 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 				urlBuilder.append(country);
 			}
             URL url = new URL(urlBuilder.toString());
+            LOGGER.info("Realizando peticion: " + url);
         	InputStream input = url.openStream();
         	LeaguesJson leagues = mapper.readValue(input, LeaguesJson.class);
         	leaguesList.addAll(leagues.getLeague());
@@ -58,6 +60,7 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 				urlBuilder.append(round);
 			}
             URL url = new URL(urlBuilder.toString());
+            LOGGER.info("Realizando peticion: " + url);
         	InputStream input = url.openStream();
         	MatchesJson matches = mapper.readValue(input, MatchesJson.class);
         	matchesList.addAll(matches.getMatch());
@@ -84,6 +87,7 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 				urlBuilder.append(round);
 			}
             URL url = new URL(urlBuilder.toString());
+            LOGGER.info("Realizando peticion: " + url);
         	InputStream input = url.openStream();
         	TableJson table = mapper.readValue(input, TableJson.class);
         	clasification.addAll(table.getTable());
@@ -95,15 +99,23 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 	}
 	
 	@Override
-	public MatchDetails getMatcheMatchDetails(Match match) {
+	public MatchDetails getMatchDetails(Match match) {
 		try{
 			StringBuilder urlBuilder = getApiUrlBuilder("match");
 			urlBuilder.append("&id=");
 			urlBuilder.append(match.getId());
             URL url = new URL(urlBuilder.toString());
-        	InputStream input = url.openStream();
-        	DetailsJson details = mapper.readValue(input, DetailsJson.class);
-        	input.close();
+            LOGGER.info("Realizando peticion: " + url);
+            InputStream input = url.openStream();
+            DetailsJson details;
+            try{
+            	details = mapper.readValue(input, CompleteDetailsJson.class);
+            }catch (JsonMappingException e) {
+            	LOGGER.debug("No se pudieron obtener todos los detalles");
+            	input = url.openStream();
+            	details = mapper.readValue(input, DetailsJson.class);
+			}
+            input.close();
         	return new MatchDetailsImpl(details);
 		}catch (Exception e) {
 			LOGGER.warn(e.getMessage());

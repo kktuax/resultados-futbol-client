@@ -24,7 +24,7 @@ public class ResultadosFutbolServiceTest{
 		Assert.assertFalse(matches.isEmpty());
 		for(Match m : matches){
 			try{
-				MatchDetails md = resultadosFutbolServiceImpl.getMatcheMatchDetails(m);
+				MatchDetails md = resultadosFutbolServiceImpl.getMatchDetails(m);
 			}catch (Exception e) {
 				LOGGER.warn("Error obteniendo detalles del partido: " + m.getId());
 				e.printStackTrace();
