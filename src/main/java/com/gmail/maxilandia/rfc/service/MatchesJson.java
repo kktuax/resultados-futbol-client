@@ -113,11 +113,7 @@ class MatchesJson {
 			return schedule;
 		}
 		public Result getResult() {
-			try{
-				return new ResultImpl(result);
-			}catch (Exception e) {
-				return null;
-			}
+			return new ResultImpl(status, result);
 		}
 
 	}

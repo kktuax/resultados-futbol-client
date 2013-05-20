@@ -6,4 +6,6 @@ public interface Result {
 	
 	public Integer getVisitorGoals();
 	
+	public ResultStatus getResultStatus();
+	
 }

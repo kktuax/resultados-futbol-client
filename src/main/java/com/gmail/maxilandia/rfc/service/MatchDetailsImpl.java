@@ -45,11 +45,7 @@ class MatchDetailsImpl implements MatchDetails{
 	
 	@Override
 	public Result getResult() {
-		try{
-			return new ResultImpl(details.result);
-		}catch (Exception e) {
-			return null;
-		}
+		return new ResultImpl(details.status, details.result);
 	}
 	
 	@Override
