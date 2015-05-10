@@ -112,10 +112,21 @@ class MatchesJson {
 		public Date getSchedule() {
 			return schedule;
 		}
+		public Integer getGroup() {
+			return group;
+		}
+		public Integer getRound() {
+			return round;
+		}
 		public Result getResult() {
 			return new ResultImpl(status, result);
 		}
-
+		@Override
+		public String toString() {
+			return "Match [team1=" + getLocalTeam() + ", team2=" + getVisitorTeam() + ", result="
+					+ result + "]";
+		}
+		
 	}
 
 }

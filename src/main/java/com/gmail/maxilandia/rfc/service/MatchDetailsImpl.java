@@ -132,5 +132,15 @@ class MatchDetailsImpl implements MatchDetails{
 		}	
 		return lineUp;
 	}
+
+	@Override
+	public Integer getGroup() {
+		return details.group;
+	}
+
+	@Override
+	public Integer getRound() {
+		return details.round;
+	}
 	
 }

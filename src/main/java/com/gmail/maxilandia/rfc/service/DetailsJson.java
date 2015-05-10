@@ -1,27 +1,14 @@
 package com.gmail.maxilandia.rfc.service;
 
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.gmail.maxilandia.rfc.LineUp;
-import com.gmail.maxilandia.rfc.MatchDetails;
-import com.gmail.maxilandia.rfc.MatchEvent;
-import com.gmail.maxilandia.rfc.MatchEventType;
-import com.gmail.maxilandia.rfc.Result;
-import com.gmail.maxilandia.rfc.Team;
 
-@SuppressWarnings("unused")
 @JsonIgnoreProperties(ignoreUnknown = true)
 class DetailsJson {
 
-	Integer id, team1, team2, status;
+	Integer id, team1, team2, status, group, round;
 
 	String local, visitor, stadium, league, team1_twitter,
 			team2_twitter, local_abbr, visitor_abbr, result, local_shield,
@@ -85,6 +72,19 @@ class DetailsJson {
 	void setReferee(String referee) {
 		this.referee = referee;
 	}
+	Integer getGroup() {
+		return group;
+	}
+	void setGroup(Integer group) {
+		this.group = group;
+	}
+	Integer getRound() {
+		return round;
+	}
+	void setRound(Integer round) {
+		this.round = round;
+	}
+	
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-DD HH:mm:ss")
 	void setSchedule(Date schedule) {
 		this.schedule = schedule;

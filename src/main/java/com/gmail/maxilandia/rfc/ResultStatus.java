@@ -2,7 +2,7 @@ package com.gmail.maxilandia.rfc;
 
 public enum ResultStatus {
 	
-	FINISHED(1);
+	NOT_STARTED(-1), FINISHED(1);
 
 	private ResultStatus(Integer code) {
 		this.code = code;

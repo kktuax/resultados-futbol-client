@@ -79,6 +79,11 @@ class LeaguesJson {
 		void setPhase(String phase) {
 			this.phase = phase;
 		}
+		@Override
+		public String toString() {
+			return "League [country=" + country + ", name=" + name
+					+ ", group_code=" + group_code + ", year=" + year + "]";
+		}
 
 	}
 	

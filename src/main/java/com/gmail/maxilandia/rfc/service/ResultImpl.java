@@ -23,7 +23,7 @@ class ResultImpl implements Result{
 		try{
 			resultStatus = ResultStatus.getResultStatus(statusCode);
 		}catch (Exception e) {
-			LOGGER.info("Estado no reconocido: " + statusCode);
+			LOGGER.debug("Estado no reconocido: " + statusCode);
 		}
 		this.resultStatus = resultStatus;
 		try {
@@ -34,7 +34,7 @@ class ResultImpl implements Result{
 				throw new Exception();
 			}
 		} catch (Exception e) {
-			LOGGER.info("No se pudo obtener el resultado a partir del texto: " + result);
+			LOGGER.debug("No se pudo obtener el resultado a partir del texto: " + result);
 		}
 		this.localGoals = localGoals;
 		this.visitorGoals = visitorGoals;
