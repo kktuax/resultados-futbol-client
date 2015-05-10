@@ -4,6 +4,7 @@ import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.TimeZone;
 
 import org.slf4j.Logger;
@@ -13,8 +14,13 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.gmail.maxilandia.rfc.ClassificationDetails;
 import com.gmail.maxilandia.rfc.League;
+import com.gmail.maxilandia.rfc.Leagues;
 import com.gmail.maxilandia.rfc.Match;
 import com.gmail.maxilandia.rfc.MatchDetails;
+import com.gmail.maxilandia.rfc.Matches;
+import com.gmail.maxilandia.rfc.ResultStatus;
+import com.google.common.base.Optional;
+import com.google.common.collect.FluentIterable;
 
 public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 
@@ -45,6 +51,15 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 	}
 
 	@Override
+	public League getLastLeagueWithName(String country, String name) {
+		List<League> leagues = getLeagues(country);
+		return Leagues.YEAR_ORDERING.max(
+			FluentIterable.from(leagues)
+				.filter(Leagues.predicateForName(name))
+		);
+	}
+	
+	@Override
 	public List<Match> getMatches(League league, Integer group, Integer round) {
 		List<Match> matchesList = new ArrayList<Match>();
 		try{
@@ -69,6 +84,28 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 			LOGGER.warn(e.getMessage());
 		}
 		return matchesList;
+	}
+
+	@Override
+	public MatchDetails getLastFinishedMatchDetails(League league, String teamName) throws NoSuchElementException {
+		List<Match> matches = getMatches(league, null, null);
+		Optional<Match> rmo = FluentIterable.from(matches)
+			.firstMatch(Matches.predicateForTeamName(teamName));
+		if(rmo.isPresent()){
+			Match match = rmo.get();
+			if(ResultStatus.NOT_STARTED.equals(match.getResult().getResultStatus())){
+				if(match.getRound() > 1){
+					Optional<Match> lrmo = FluentIterable
+						.from(getMatches(league, match.getGroup(), match.getRound() - 1))
+						.firstMatch(Matches.predicateForTeamName(teamName));
+					if(lrmo.isPresent()){
+						match = lrmo.get();
+					}
+				}
+			}
+			return getMatchDetails(match);
+		}
+		throw new NoSuchElementException();
 	}
 	
 	@Override

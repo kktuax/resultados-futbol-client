@@ -1,29 +1,22 @@
 package com.gmail.maxilandia.rfc.service;
 
-import java.util.List;
-
-import junit.framework.Assert;
-
+import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.gmail.maxilandia.rfc.ClassificationDetails;
 import com.gmail.maxilandia.rfc.League;
-import com.gmail.maxilandia.rfc.Match;
+import com.gmail.maxilandia.rfc.MatchDetails;
 
 public class ResultadosFutbolServiceTest{
 
-	@Ignore
+	@Ignore("necesita key")
 	@Test	
 	public void testService(){
-		ResultadosFutbolServiceImpl resultadosFutbolServiceImpl = new ResultadosFutbolServiceImpl();
-		resultadosFutbolServiceImpl.setKey("key");
-		List<League> leagues = resultadosFutbolServiceImpl.getLeagues("es");
-		Assert.assertFalse(leagues.isEmpty());
-		List<Match> matches = resultadosFutbolServiceImpl.getMatches(leagues.get(0), null, null);
-		Assert.assertFalse(matches.isEmpty());
-		List<ClassificationDetails> classification = resultadosFutbolServiceImpl.getClassification(leagues.get(0), null, null);
-		Assert.assertFalse(classification.isEmpty());
+		ResultadosFutbolServiceImpl rfsi = new ResultadosFutbolServiceImpl();
+		rfsi.setKey("key");
+		League league = rfsi.getLastLeagueWithName("es", "Segunda División");
+		MatchDetails details = rfsi.getLastFinishedMatchDetails(league, "Racing");
+		Assert.assertNotNull(details);
 	}
-	
+
 }
