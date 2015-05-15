@@ -86,6 +86,28 @@ public class ResultadosFutbolServiceImpl implements ResultadosFutbolService{
 		return matchesList;
 	}
 
+
+	@Override
+	public MatchDetails getNextMatchDetails(League league, String teamName) throws NoSuchElementException {
+		List<Match> matches = getMatches(league, null, null);
+		Optional<Match> rmo = FluentIterable.from(matches)
+			.firstMatch(Matches.predicateForTeamName(teamName));
+		if(rmo.isPresent()){
+			Match match = rmo.get();
+			if(ResultStatus.NOT_STARTED.equals(match.getResult().getResultStatus())){
+				return getMatchDetails(match);
+			}else{
+				Optional<Match> lrmo = FluentIterable
+					.from(getMatches(league, match.getGroup(), match.getRound() + 1))
+					.firstMatch(Matches.predicateForTeamName(teamName));
+				if(lrmo.isPresent()){
+					return getMatchDetails(lrmo.get());
+				}
+			}
+		}
+		throw new NoSuchElementException();
+	}
+	
 	@Override
 	public MatchDetails getLastFinishedMatchDetails(League league, String teamName) throws NoSuchElementException {
 		List<Match> matches = getMatches(league, null, null);

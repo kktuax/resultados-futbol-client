@@ -16,6 +16,8 @@ public interface ResultadosFutbolService {
 	
 	public List<Match> getMatches(League league, Integer group, Integer round);
 	
+	public MatchDetails getNextMatchDetails(League league, String teamName) throws NoSuchElementException;
+	
 	public MatchDetails getLastFinishedMatchDetails(League league, String teamName) throws NoSuchElementException;
 	
 	public List<ClassificationDetails> getClassification(League league, Integer group, Integer round);
