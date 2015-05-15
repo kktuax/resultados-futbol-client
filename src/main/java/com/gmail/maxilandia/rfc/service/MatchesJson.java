@@ -32,7 +32,7 @@ class MatchesJson {
 		private Boolean playoffs;
 		private Float coef;
 		
-	    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-MM-DD HH:mm:ss")
+	    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="yyyy-MM-dd HH:mm:ss")
 		private Date schedule;
 		void setId(Integer id) {
 			this.id = id;

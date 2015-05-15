@@ -85,7 +85,7 @@ class DetailsJson {
 		this.round = round;
 	}
 	
-	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-DD HH:mm:ss")
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
 	void setSchedule(Date schedule) {
 		this.schedule = schedule;
 	}
