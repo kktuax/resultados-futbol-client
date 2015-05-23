@@ -1,5 +1,8 @@
 package com.gmail.maxilandia.rfc;
 
+import com.google.common.base.Predicate;
+import com.google.common.base.Predicates;
+
 public enum MatchEventType {
 
 	/** Jugador sale
@@ -61,5 +64,35 @@ public enum MatchEventType {
 		}
 		throw new IllegalArgumentException();
 	}
+	
+	public Predicate<MatchEvent> matchEventPredicate(){
+		final MatchEventType type = this;
+		return new Predicate<MatchEvent>() {
+			@Override
+			public boolean apply(MatchEvent input) {
+				return type.equals(input.getEvent());
+			}
+		};
+	}
+	
+	@SuppressWarnings("unchecked")
+	public static final Predicate<MatchEvent> GOAL_PREDICATE = Predicates.or(
+		MatchEventType.goal.matchEventPredicate(), 
+		MatchEventType.ownGoal.matchEventPredicate(),
+		MatchEventType.penaltyGoal.matchEventPredicate(),
+		MatchEventType.foulGoal.matchEventPredicate()
+	);
+	
+	@SuppressWarnings("unchecked")
+	public static final Predicate<MatchEvent> CARD_PREDICATE = Predicates.or(
+		MatchEventType.yellowCard.matchEventPredicate(), 
+		MatchEventType.secondYellowCard.matchEventPredicate(),
+		MatchEventType.redCard.matchEventPredicate()
+	);
+	
+	public static final Predicate<MatchEvent> CHANGE_PREDICATE = Predicates.or(
+		MatchEventType.playerIn.matchEventPredicate(), 
+		MatchEventType.playerOut.matchEventPredicate()
+	);
 	
 }
