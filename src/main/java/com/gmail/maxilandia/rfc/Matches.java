@@ -1,5 +1,7 @@
 package com.gmail.maxilandia.rfc;
 
+import java.util.Date;
+
 import com.google.common.base.Predicate;
 import com.google.common.collect.Ordering;
 
@@ -20,6 +22,18 @@ public class Matches {
 			}
 		};
 	}
+	
+	public static final Predicate<Match> FUTURE_PREDICATE = new Predicate<Match>() {
+		@Override
+		public boolean apply(Match match) {
+			if(match.getSchedule() == null){
+				return false;
+			}else{
+				Date now = new Date();
+				return now.before(match.getSchedule());
+			}
+		}
+	};
 	
 	public static final Predicate<Match> FINISHED_PREDICATE = new Predicate<Match>() {
 		@Override
